@@ -53,7 +53,7 @@ Finger 4.1
 #and returns True if either string occurs anywhere in the other, and False
 #otherwise. Hint: you might want to use the built-in str operation in .
 
-Finger 4;3
+Finger 4.3
 
 #Finger exercise: When the implementation of fib in Figure 4.7 is used to
 #compute fib(5) , how many times does it compute the value fib(2) ?
