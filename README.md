@@ -63,3 +63,8 @@ Finger 7.1
 #Finger exercise: Implement a function that meets the specification below. Use
 a try-except block.
 
+Finger 7.2
+
+#Finger Exercise: Implement a function that satisfies the specification
+
+
