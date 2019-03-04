@@ -28,5 +28,10 @@ def sumDigits(s):
     return counter
             
 querry = input("Enter a string: ")
-print (sumDigits(querry))
+
+try:
+    querry is str
+    print (sumDigits(querry))
+except TypeError:
+    print (querry, "is not a string")
        
