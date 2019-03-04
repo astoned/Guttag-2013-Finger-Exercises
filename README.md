@@ -57,3 +57,9 @@ Finger 4.3
 
 #Finger exercise: When the implementation of fib in Figure 4.7 is used to
 #compute fib(5) , how many times does it compute the value fib(2) ?
+
+Finger 7.1
+
+#Finger exercise: Implement a function that meets the specification below. Use
+a try-except block.
+
