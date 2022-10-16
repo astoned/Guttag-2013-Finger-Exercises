@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jan  8 21:32:17 2019
+Created on sunday oct  16 2022
 
-@author: astoned
+@author: LORD-MODH
 """
 
 # Finger exercise: Write a program that asks the user to enter an integer and
@@ -11,7 +10,7 @@ Created on Tue Jan  8 21:32:17 2019
 # to the integer entered by the user. If no such pair of integers exists, it should
 # print a message to that effect.
 
-x = int(input('Number? '))
+x = int(input('Enter a Number : '))
 root = 0
 
 for pwr in range(1,6):
@@ -32,3 +31,21 @@ for pwr in range(1,6):
     elif x == 0:
         print('There is no such pair')
         break
+##EASY WAY    
+x=int(input("enter a number"))
+root=0
+while root<abs(x):
+    root+=1
+    for a in range(1,6):
+        if root**a == abs(x):
+            if x<0 :
+                if a%2==0:
+                    pass
+                else :
+                    print(-root, "power",a, "gives", x)
+            else:
+                print(root,"power",a,"gives",x)
+ 
+
+                
+    
