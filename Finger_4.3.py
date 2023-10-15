@@ -20,8 +20,10 @@ def fib(n):
     global fibCount
     if n == 0 or n == 1:
         return 1
-    else:
+    elif n == 2:
         fibCount += 1
+        return 2 # fib(2) = 2
+    else:
         return fib(n-1) + fib(n-2)
     
 def testFib(n):
